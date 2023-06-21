@@ -121,7 +121,7 @@
         <slf4j.version>1.7.30</slf4j.version>
         <clover.version>4.0.6</clover.version>
         <scala.version>2.12.6</scala.version>
-        <guava.version>28.2-jre</guava.version>
+        <guava.version>32.0.0-jre</guava.version>
         <trove4j.version>3.0.3</trove4j.version>
         <checkstyle.version>8.34</checkstyle.version>
         <checkstyle.plugin.version>3.1.1</checkstyle.plugin.version>
@@ -134,7 +134,7 @@
         <maven.compiler.meminitial>2048m</maven.compiler.meminitial>
         <maven.compiler.maxmem>2048m</maven.compiler.maxmem>
 
-        <argLine></argLine>
+        <argLine/>
 
         <project.previous.version>9.2.0</project.previous.version>
     </properties>
@@ -384,7 +384,7 @@
                             <id>enforce</id>
                             <configuration>
                                 <rules>
-                                    <DependencyConvergence />
+                                    <DependencyConvergence/>
                                     <requireJavaVersion>
                                         <version>1.8.0</version>
                                     </requireJavaVersion>
